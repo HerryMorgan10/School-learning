@@ -1,0 +1,50 @@
+/* Bienvenidos a HTML*/
+/* Para comenzar con nuestro proyecto HTML, ponemos <html>
+
+</html>*/
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>MiPrimeraPaginaWeb</title> /*El titulo de nuesta pagina web.*/
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'> /* Vinculamos otros archivos como el de css
+    para complementar HTML */
+</head>
+
+<body> /* Dentro del body pondremos todo el contenido para la creación de nuestra web */
+
+    /* Para poner titulo a nuestra web usaremos h1. Contra mas pequeña querramos la letra: h2, h3, h4. */
+    <h1>HOLA MUNDO</h1>
+
+    /* Con P escribimos un parrafo */
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, animi recusandae, magni ratione quasi ipsa
+        reiciendis officia repellat quos molestias aspernatur, asperiores mollitia excepturi autem unde. Sed saepe
+        laboriosam nesciunt.</p>
+
+    /* Para hacer listas usaremos: <ul></ul>, <li></li> de la siguiente manera */
+    <ul>
+        <li>Cafe</li>
+        <li>Sandía</li>
+        <li>Leche</li>
+    </ul>
+    <li>Leche</li>
+
+    /* Creamos links con <a></a> */
+    <a href="###">Tienda</a>
+    <li><a href="###">Tienda 2</a></li>
+
+    /* Usamos el DIV para dividir contenidos en bloques */
+    <div>
+        <h2>Hola, mi primer subtitulo</h2>
+    </div>
+
+
+    /* Para enlazar cada apartado con css tendremos que definirlos con clases */
+    <h1 class="MiPrimerMundo">Hola Mundo Clases</h1>
+</body>
+
+</html>
